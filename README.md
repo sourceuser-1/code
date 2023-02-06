@@ -37,6 +37,7 @@
 - Pull code from repo
 
 ```
+git clone https://github.com/sourceuser-1/code.git
 cd drl
 ```
 * Dependencies are managed using the conda environment setup:
