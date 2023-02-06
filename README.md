@@ -37,13 +37,12 @@
 - Pull code from repo
 
 ```
-git clone https://github.com/schr476/dnc2s_rl.git
-cd dnc2s_rl
+cd drl
 ```
 * Dependencies are managed using the conda environment setup:
 ```
 conda env create -f environment.yml 
-conda activate dnc2s_rl_env (required every time you use the package)
+conda activate drl_env (required every time you use the package)
 ```
 * Install Data Science Toolkit (via pip):
 ```
