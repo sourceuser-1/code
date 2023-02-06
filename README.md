@@ -48,3 +48,9 @@ conda activate drl_env (required every time you use the package)
 ```
 pip install -e . 
 ```
+
+* Run Code
+'''
+python drivers/run_opt3.py --agent <agent_name> --env <env_name> --trial 0 --tau 0.01 --actor_lr 1e-3 --critic_lr 1e-3 --lower_quantiles 0.03 --thresh_quantile 0.95
+
+'''
