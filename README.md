@@ -1,4 +1,4 @@
-# Reinforcement Learning package for DnC2s project
+# Reinforcement Learning project
 
 ## Software Requirement
 
@@ -14,7 +14,7 @@
 ├── config                	          : folder containing configurations
     └── agent_cfg                     : agent configuration folder
     └── env_cfg                       : env configuration folder
-├── dnc2s_rl                	      : folder with dnc2s_rl code
+├── drl                	              : folder with drl code
     └── __init__.py                   : make base classes visible
     ├── base         	              : folder containing base classes
         └── __init__.py               : make base classes visible
@@ -24,14 +24,9 @@
     ├── agents         	              : folder containing agents and registration scripts
         └── __init__.py               : agent registry
         └── registration.py           : script to handle registration
-        ├── dnc2s_agents              : folder containing agents
+        ├── drl_agents              : folder containing agents
             └── __init__.py           : script to make agents visible
-            └── <RLagent>.py          : RL agents (such as DDPG, QR-DDPG, QUOTA, QR-SSP-DDPG, etc.)
-    ├── envs         	              : folder containing environments
-        └── __init__.py               : environment registry
-        ├── dnc2s_envs                : folder with application environments
-        └── __init__.py               : script to make environments visible
-            └── <RLenv>.py            : RL environments (building, accelerator surrogate models, etc.)
+            └── <RLagent>.py          : RL agents
 
 ```
 
