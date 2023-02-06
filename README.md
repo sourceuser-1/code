@@ -9,7 +9,7 @@
 ## Directory Organization
 
 ```
-├── environment.yml                   : Conda setup file with package requirements
+├── environment1.yml                   : Conda setup file with package requirements
 ├── setup.py                          : Python setup file with requirements files
 ├── config                	          : folder containing configurations
     └── agent_cfg                     : agent configuration folder
@@ -41,7 +41,7 @@ cd drl
 ```
 * Dependencies are managed using the conda environment setup:
 ```
-conda env create -f environment.yml 
+conda env create -f environment1.yml 
 conda activate drl_env (required every time you use the package)
 ```
 * Install Data Science Toolkit (via pip):
